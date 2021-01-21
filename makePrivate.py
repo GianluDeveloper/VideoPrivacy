@@ -5,11 +5,11 @@ import os
 
 OUTPUT_PATH = "./data/"
 DISPLAY = True
-# y, x, r, g, b
 
 if not os.path.exists(OUTPUT_PATH):
     os.mkdir(OUTPUT_PATH)
 
+# sub array: y, x, r, g, b
 PRIVACYPIXELS = [[68, 1274,  170, 190], [68, 1035,  170, 190]]
 
 
