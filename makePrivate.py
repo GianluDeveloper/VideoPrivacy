@@ -9,7 +9,7 @@ DISPLAY = True
 if not os.path.exists(OUTPUT_PATH):
     os.mkdir(OUTPUT_PATH)
 
-# sub array: y, x, r, g, b
+# sub array: y, x, minrgb, maxrgb
 PRIVACYPIXELS = [[68, 1274,  170, 190], [68, 1035,  170, 190]]
 
 
